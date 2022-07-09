@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  MEASUREMENTID: "G-H77LDMFX69"
 };
