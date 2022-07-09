@@ -1,0 +1,6 @@
+<p [class]="text.class">
+    {{text.strings}}
+    <a *ngIf="text.hasLink" [class]="text.urlClass" [href]="text.url">
+        {{ text.urlLabel }}
+    </a>
+</p>
